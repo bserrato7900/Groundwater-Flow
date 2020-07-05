@@ -1,0 +1,19 @@
+1. In VirtualBox, select "New" to create a new machine. 
+
+2.  Name the machine whatever you'd like.  For "Type:" select "Linux".  For "Version:" select "Ubuntu ___bit" (32 or 64 bit, depending on your host computer hardware.  Select "Next."
+
+3.  For the machine and program to work properly, select AT LEAST 2048mb.  If your host computer is sufficient, you may want to select at least 500mb to 1000mb more. Select "Next."
+
+4. For "Hard Disk" select "Use an existing virtual hard disk file" and then click the folder icon below the option you just selected, just to the right of the dropdown menu.
+
+5.  In the pop-up window, click "add+" and then navigate to the FlowNet.vdi file you downloaded from Google Drive.  Select "Choose". 
+
+6.  Make sure "Use an existing virtual hard disk file" is still selected and in the dropdown below it you see "FlowNet.vdi".  Select "Create".  
+
+7.  Start the newly created machine and if all worked correctly, you should see a "proj" folder on the homescreen of your ubuntu desktop.  Open this folder and open the "Current" folder.  There you should see some familiar files, and some unfamiliar files.  
+
+8.  While in the "Current" folder, right click and select "Terminal".  A terminal screen should open and your present working directory should be "Current".  If not, navigate to that folder using the correct path. 
+
+9.  Type: python project.py      or      python3 project.py         depending on which python you have installed.  If no python has been installed do so and open project.py in the manner suiting your version of python.  
+
+10.  Abracadabra, alakazoo, alakazodal, you're now able to create a model.  
