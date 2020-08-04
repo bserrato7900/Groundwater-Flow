@@ -1,1 +1,1 @@
-# Contributor: Dustin
+# Contributor: Dustin Miner
